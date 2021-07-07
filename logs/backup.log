@@ -1,0 +1,8 @@
+Backup Summary for localhost at 2021-07-06 18:00:03.526610
+Config  : ./localhost/private/backups/20210706_180002-localhost-site_config_backup.json 181.0B
+Database: ./localhost/private/backups/20210706_180002-localhost-database.sql.gz         1.4MiB
+Backup for Site localhost has been successfully completed
+Backup Summary for localhost at 2021-07-07 12:00:03.222329
+Config  : ./localhost/private/backups/20210707_120002-localhost-site_config_backup.json 181.0B
+Database: ./localhost/private/backups/20210707_120002-localhost-database.sql.gz         1.4MiB
+Backup for Site localhost has been successfully completed

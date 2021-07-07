@@ -1,0 +1,152 @@
+[2021-07-01 18:16:47 +0600] [28398] [INFO] Starting gunicorn 19.10.0
+[2021-07-01 18:16:47 +0600] [28398] [INFO] Listening at: http://127.0.0.1:8000 (28398)
+[2021-07-01 18:16:47 +0600] [28398] [INFO] Using worker: sync
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:47 +0600] [28464] [INFO] Booting worker with pid: 28464
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:48 +0600] [28465] [INFO] Booting worker with pid: 28465
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:48 +0600] [28466] [INFO] Booting worker with pid: 28466
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:48 +0600] [28467] [INFO] Booting worker with pid: 28467
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:48 +0600] [28468] [INFO] Booting worker with pid: 28468
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:48 +0600] [28469] [INFO] Booting worker with pid: 28469
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:48 +0600] [28472] [INFO] Booting worker with pid: 28472
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:48 +0600] [28473] [INFO] Booting worker with pid: 28473
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:16:50 +0600] [28398] [INFO] Handling signal: term
+[2021-07-01 18:16:50 +0600] [28472] [INFO] Worker exiting (pid: 28472)
+[2021-07-01 18:16:50 +0600] [28467] [INFO] Worker exiting (pid: 28467)
+[2021-07-01 18:16:50 +0600] [28464] [INFO] Worker exiting (pid: 28464)
+[2021-07-01 18:16:50 +0600] [28466] [INFO] Worker exiting (pid: 28466)
+[2021-07-01 18:16:50 +0600] [28468] [INFO] Worker exiting (pid: 28468)
+[2021-07-01 18:16:50 +0600] [28465] [INFO] Worker exiting (pid: 28465)
+[2021-07-01 18:16:50 +0600] [28469] [INFO] Worker exiting (pid: 28469)
+[2021-07-01 18:16:50 +0600] [28473] [INFO] Worker exiting (pid: 28473)
+[2021-07-01 18:16:50 +0600] [28398] [INFO] Shutting down: Master
+[2021-07-01 18:17:00 +0600] [28483] [INFO] Starting gunicorn 19.10.0
+[2021-07-01 18:17:00 +0600] [28483] [INFO] Listening at: http://127.0.0.1:8000 (28483)
+[2021-07-01 18:17:00 +0600] [28483] [INFO] Using worker: sync
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:17:00 +0600] [28533] [INFO] Booting worker with pid: 28533
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:17:00 +0600] [28534] [INFO] Booting worker with pid: 28534
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:17:00 +0600] [28535] [INFO] Booting worker with pid: 28535
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:17:00 +0600] [28536] [INFO] Booting worker with pid: 28536
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:17:00 +0600] [28538] [INFO] Booting worker with pid: 28538
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:17:00 +0600] [28540] [INFO] Booting worker with pid: 28540
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:17:00 +0600] [28541] [INFO] Booting worker with pid: 28541
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:17:00 +0600] [28542] [INFO] Booting worker with pid: 28542
+/home/erpnext/frappe-bench/env/lib/python3.8/os.py:1023: RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode, the default buffer size will be used
+  return io.open(fd, *args, **kwargs)
+[2021-07-01 18:21:48 +0600] [28483] [INFO] Handling signal: term
+[2021-07-01 18:21:48 +0600] [28533] [INFO] Worker exiting (pid: 28533)
+[2021-07-01 18:21:48 +0600] [28534] [INFO] Worker exiting (pid: 28534)
+[2021-07-01 18:21:48 +0600] [28540] [INFO] Worker exiting (pid: 28540)
+[2021-07-01 18:21:48 +0600] [28535] [INFO] Worker exiting (pid: 28535)
+[2021-07-01 18:21:48 +0600] [28536] [INFO] Worker exiting (pid: 28536)
+[2021-07-01 18:21:48 +0600] [28538] [INFO] Worker exiting (pid: 28538)
+[2021-07-01 18:21:48 +0600] [28541] [INFO] Worker exiting (pid: 28541)
+[2021-07-01 18:21:48 +0600] [28542] [INFO] Worker exiting (pid: 28542)
+[2021-07-01 18:21:48 +0600] [28483] [INFO] Shutting down: Master
+[2021-07-02 09:50:17 +0600] [1485] [INFO] Starting gunicorn 20.1.0
+[2021-07-02 09:50:17 +0600] [1485] [INFO] Listening at: http://127.0.0.1:8000 (1485)
+[2021-07-02 09:50:17 +0600] [1485] [INFO] Using worker: sync
+[2021-07-02 09:50:17 +0600] [1597] [INFO] Booting worker with pid: 1597
+[2021-07-02 09:50:17 +0600] [1598] [INFO] Booting worker with pid: 1598
+[2021-07-02 09:50:18 +0600] [1599] [INFO] Booting worker with pid: 1599
+[2021-07-02 09:50:18 +0600] [1600] [INFO] Booting worker with pid: 1600
+[2021-07-02 09:50:18 +0600] [1601] [INFO] Booting worker with pid: 1601
+[2021-07-02 09:50:18 +0600] [1602] [INFO] Booting worker with pid: 1602
+[2021-07-02 09:50:18 +0600] [1603] [INFO] Booting worker with pid: 1603
+[2021-07-02 09:50:18 +0600] [1604] [INFO] Booting worker with pid: 1604
+[2021-07-02 11:05:47 +0600] [1485] [INFO] Handling signal: term
+[2021-07-02 11:05:47 +0600] [1600] [INFO] Worker exiting (pid: 1600)
+[2021-07-02 11:05:47 +0600] [1604] [INFO] Worker exiting (pid: 1604)
+[2021-07-02 11:05:47 +0600] [1602] [INFO] Worker exiting (pid: 1602)
+[2021-07-02 11:05:47 +0600] [1597] [INFO] Worker exiting (pid: 1597)
+[2021-07-02 11:05:47 +0600] [1601] [INFO] Worker exiting (pid: 1601)
+[2021-07-02 11:05:47 +0600] [1598] [INFO] Worker exiting (pid: 1598)
+[2021-07-02 11:05:47 +0600] [1599] [INFO] Worker exiting (pid: 1599)
+[2021-07-02 11:05:47 +0600] [1603] [INFO] Worker exiting (pid: 1603)
+[2021-07-02 11:05:47 +0600] [1485] [INFO] Shutting down: Master
+[2021-07-03 14:52:25 +0600] [1399] [INFO] Starting gunicorn 20.1.0
+[2021-07-03 14:52:25 +0600] [1399] [INFO] Listening at: http://127.0.0.1:8000 (1399)
+[2021-07-03 14:52:25 +0600] [1399] [INFO] Using worker: sync
+[2021-07-03 14:52:25 +0600] [1452] [INFO] Booting worker with pid: 1452
+[2021-07-03 14:52:25 +0600] [1456] [INFO] Booting worker with pid: 1456
+[2021-07-03 14:52:25 +0600] [1457] [INFO] Booting worker with pid: 1457
+[2021-07-03 14:52:25 +0600] [1458] [INFO] Booting worker with pid: 1458
+[2021-07-03 14:52:25 +0600] [1459] [INFO] Booting worker with pid: 1459
+[2021-07-03 14:52:26 +0600] [1460] [INFO] Booting worker with pid: 1460
+[2021-07-03 14:52:26 +0600] [1461] [INFO] Booting worker with pid: 1461
+[2021-07-03 14:52:26 +0600] [1462] [INFO] Booting worker with pid: 1462
+[2021-07-03 15:02:37 +0600] [1399] [INFO] Handling signal: term
+[2021-07-03 15:02:37 +0600] [1456] [INFO] Worker exiting (pid: 1456)
+[2021-07-03 15:02:37 +0600] [1452] [INFO] Worker exiting (pid: 1452)
+[2021-07-03 15:02:37 +0600] [1459] [INFO] Worker exiting (pid: 1459)
+[2021-07-03 15:02:37 +0600] [1461] [INFO] Worker exiting (pid: 1461)
+[2021-07-03 15:02:37 +0600] [1457] [INFO] Worker exiting (pid: 1457)
+[2021-07-03 15:02:37 +0600] [1460] [INFO] Worker exiting (pid: 1460)
+[2021-07-03 15:02:37 +0600] [1458] [INFO] Worker exiting (pid: 1458)
+[2021-07-03 15:02:37 +0600] [1462] [INFO] Worker exiting (pid: 1462)
+[2021-07-03 15:02:37 +0600] [1399] [INFO] Shutting down: Master
+[2021-07-06 16:17:05 +0600] [1464] [INFO] Starting gunicorn 20.1.0
+[2021-07-06 16:17:05 +0600] [1464] [INFO] Listening at: http://127.0.0.1:8000 (1464)
+[2021-07-06 16:17:05 +0600] [1464] [INFO] Using worker: sync
+[2021-07-06 16:17:05 +0600] [1574] [INFO] Booting worker with pid: 1574
+[2021-07-06 16:17:05 +0600] [1575] [INFO] Booting worker with pid: 1575
+[2021-07-06 16:17:06 +0600] [1576] [INFO] Booting worker with pid: 1576
+[2021-07-06 16:17:06 +0600] [1577] [INFO] Booting worker with pid: 1577
+[2021-07-06 16:17:06 +0600] [1578] [INFO] Booting worker with pid: 1578
+[2021-07-06 16:17:06 +0600] [1579] [INFO] Booting worker with pid: 1579
+[2021-07-06 16:17:06 +0600] [1580] [INFO] Booting worker with pid: 1580
+[2021-07-06 16:17:06 +0600] [1581] [INFO] Booting worker with pid: 1581
+[2021-07-06 19:11:31 +0600] [1464] [INFO] Handling signal: term
+[2021-07-06 19:11:31 +0600] [1577] [INFO] Worker exiting (pid: 1577)
+[2021-07-06 19:11:31 +0600] [1575] [INFO] Worker exiting (pid: 1575)
+[2021-07-06 19:11:31 +0600] [1578] [INFO] Worker exiting (pid: 1578)
+[2021-07-06 19:11:31 +0600] [1579] [INFO] Worker exiting (pid: 1579)
+[2021-07-06 19:11:31 +0600] [1576] [INFO] Worker exiting (pid: 1576)
+[2021-07-06 19:11:31 +0600] [1574] [INFO] Worker exiting (pid: 1574)
+[2021-07-06 19:11:31 +0600] [1580] [INFO] Worker exiting (pid: 1580)
+[2021-07-06 19:11:31 +0600] [1581] [INFO] Worker exiting (pid: 1581)
+[2021-07-06 19:11:31 +0600] [1464] [INFO] Shutting down: Master
+[2021-07-07 10:58:03 +0600] [1466] [INFO] Starting gunicorn 20.1.0
+[2021-07-07 10:58:03 +0600] [1466] [INFO] Listening at: http://127.0.0.1:8000 (1466)
+[2021-07-07 10:58:03 +0600] [1466] [INFO] Using worker: sync
+[2021-07-07 10:58:03 +0600] [1519] [INFO] Booting worker with pid: 1519
+[2021-07-07 10:58:03 +0600] [1520] [INFO] Booting worker with pid: 1520
+[2021-07-07 10:58:04 +0600] [1522] [INFO] Booting worker with pid: 1522
+[2021-07-07 10:58:04 +0600] [1523] [INFO] Booting worker with pid: 1523
+[2021-07-07 10:58:04 +0600] [1524] [INFO] Booting worker with pid: 1524
+[2021-07-07 10:58:04 +0600] [1525] [INFO] Booting worker with pid: 1525
+[2021-07-07 10:58:04 +0600] [1526] [INFO] Booting worker with pid: 1526
+[2021-07-07 10:58:04 +0600] [1527] [INFO] Booting worker with pid: 1527

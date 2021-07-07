@@ -1,0 +1,103 @@
+18:16:48 RQ worker 'rq:worker:139ea9c6e19d497081d021e67a38fbf2.mohasin-VivoBook-ASUSLaptop-X531FL-S531FL.28417.long' started, version 0.12.0
+18:16:48 *** Listening on long...
+18:16:48 Cleaning registries for queue: long
+18:16:48 RQ worker 'rq:worker:bce122371c954a80ad016ff7a81110c5.mohasin-VivoBook-ASUSLaptop-X531FL-S531FL.28410.default' started, version 0.12.0
+18:16:48 *** Listening on default...
+18:16:48 Cleaning registries for queue: default
+18:16:48 RQ worker 'rq:worker:665d10bda088494eb18638b40f2a7cc6.mohasin-VivoBook-ASUSLaptop-X531FL-S531FL.28411.short' started, version 0.12.0
+18:16:48 *** Listening on short...
+18:16:48 Cleaning registries for queue: short
+18:16:50 Warm shut down requested
+18:16:50 Warm shut down requested
+18:16:50 Warm shut down requested
+18:17:01 RQ worker 'rq:worker:7489ae9499be40618521e962446b3563.mohasin-VivoBook-ASUSLaptop-X531FL-S531FL.28489.default' started, version 0.12.0
+18:17:01 *** Listening on default...
+18:17:01 Cleaning registries for queue: default
+18:17:01 RQ worker 'rq:worker:46533606be344ceab39d4b1a6ded8d8e.mohasin-VivoBook-ASUSLaptop-X531FL-S531FL.28497.long' started, version 0.12.0
+18:17:01 *** Listening on long...
+18:17:01 Cleaning registries for queue: long
+18:17:01 RQ worker 'rq:worker:f5983c6fcb144de2ac875017a539eec0.mohasin-VivoBook-ASUSLaptop-X531FL-S531FL.28493.short' started, version 0.12.0
+18:17:01 *** Listening on short...
+18:17:01 Cleaning registries for queue: short
+18:21:48 Warm shut down requested
+18:21:48 Warm shut down requested
+18:21:48 Warm shut down requested
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 174, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/_compat.py", line 79, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 2879, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 2757, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 2837, in parse_response
+    result = StrictRedis.parse_response(
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 680, in parse_response
+    response = connection.read_response()
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 624, in read_response
+    response = self._parser.read_response()
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 284, in read_response
+    response = self._buffer.readline()
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 216, in readline
+    self._read_from_socket()
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 190, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 484, in connect
+    sock = self._connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 541, in _connect
+    raise err
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 529, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 99, in <module>
+    main()
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 18, in main
+    click.Group(commands=commands)(prog_name='bench')
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 764, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 717, in main
+    rv = self.invoke(ctx)
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1137, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 956, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 555, in invoke
+    return callback(*args, **kwargs)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 167, in start_worker
+    start_worker(queue, quiet = quiet)
+  File "/home/erpnext/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 151, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level = logging_level)
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 502, in work
+    self.register_death()
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 300, in register_death
+    p.execute()
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 2894, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 2749, in _execute_transaction
+    connection.send_packed_command(all_cmds)
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 585, in send_packed_command
+    self.connect()
+  File "/home/erpnext/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 489, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 111 connecting to localhost:11000. Connection refused.
